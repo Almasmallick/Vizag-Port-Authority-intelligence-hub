@@ -1,0 +1,2590 @@
+{
+ "meta": {
+  "asOf": "2026-11-24",
+  "title": "Vizag Port, Explained",
+  "disclaimer": "Independent academic project. Not affiliated with or endorsed by Visakhapatnam Port Authority. Built from public documents by a former (May 2024) finance intern.",
+  "units": "Rupees crore unless stated. 1 crore = 10 million. MMT = million metric tonnes. FY25 = April 2024 to March 2025.",
+  "tags": {
+   "verified": "Read in a primary document",
+   "official": "Official announcement or claim",
+   "reported": "Media or company report",
+   "calculated": "Calculated by this project",
+   "opinion": "Public opinion, not representative"
+  }
+ },
+ "headline": [
+  {
+   "id": "cargo26",
+   "value": 91.17,
+   "unit": "MMT",
+   "label": "cargo handled in FY26, a record",
+   "tag": "official",
+   "sources": [
+    "pib1112"
+   ]
+  },
+  {
+   "id": "cargoYtd",
+   "value": 54.45,
+   "unit": "MMT",
+   "label": "April to October 2026, up 8.88% (advance estimate)",
+   "tag": "verified",
+   "sources": [
+    "bulletin"
+   ]
+  },
+  {
+   "id": "income25",
+   "value": 2115.27,
+   "unit": "Rs crore",
+   "label": "operating income in FY25",
+   "tag": "verified",
+   "sources": [
+    "accounts"
+   ]
+  },
+  {
+   "id": "pat25",
+   "value": 675.41,
+   "unit": "Rs crore",
+   "label": "profit after tax in FY25; read with the audit chapter",
+   "tag": "verified",
+   "sources": [
+    "accounts"
+   ]
+  },
+  {
+   "id": "debt",
+   "value": 0,
+   "unit": "Rs crore",
+   "label": "borrowings at 31 March 2025",
+   "tag": "verified",
+   "sources": [
+    "admin25"
+   ]
+  },
+  {
+   "id": "rank",
+   "value": 4,
+   "unit": "th",
+   "label": "largest major port by cargo in FY25; second on the east coast",
+   "tag": "verified",
+   "sources": [
+    "admin25"
+   ]
+  }
+ ],
+ "financials": [
+  {
+   "fy": "FY16",
+   "cargoMMT": null,
+   "operatingIncome": 907.53,
+   "cargoHandling": 384.47,
+   "portDock": 270.81,
+   "railway": 153.79,
+   "estate": 98.46,
+   "operatingExpenditure": 551.69,
+   "operatingSurplus": 355.84,
+   "financeMiscIncome": 341.91,
+   "financeMiscExpenditure": 672.07,
+   "pbt": 25.68,
+   "pat": 50.06,
+   "teu": null,
+   "railMMT": null,
+   "pppMMT": null,
+   "capex": null,
+   "incomePerTonne": null,
+   "opexPerTonne": null,
+   "surplusPerTonne": null,
+   "operatingRatioPct": 60.8,
+   "railSharePct": null,
+   "pppSharePct": null
+  },
+  {
+   "fy": "FY17",
+   "cargoMMT": 61.02,
+   "operatingIncome": 917.57,
+   "cargoHandling": 302.57,
+   "portDock": 336.67,
+   "railway": 124.71,
+   "estate": 153.62,
+   "operatingExpenditure": 531.64,
+   "operatingSurplus": 385.93,
+   "financeMiscIncome": 122.63,
+   "financeMiscExpenditure": 463.26,
+   "pbt": 45.32,
+   "pat": 23.04,
+   "teu": 367199,
+   "railMMT": 28.27,
+   "pppMMT": null,
+   "capex": 352.25,
+   "incomePerTonne": 150.0,
+   "opexPerTonne": 87.0,
+   "surplusPerTonne": 63.0,
+   "operatingRatioPct": 57.9,
+   "railSharePct": 46.3,
+   "pppSharePct": null
+  },
+  {
+   "fy": "FY18",
+   "cargoMMT": 63.54,
+   "operatingIncome": 1063.81,
+   "cargoHandling": 373.71,
+   "portDock": 373.97,
+   "railway": 152.69,
+   "estate": 163.44,
+   "operatingExpenditure": 541.7,
+   "operatingSurplus": 522.11,
+   "financeMiscIncome": 133.57,
+   "financeMiscExpenditure": 396.16,
+   "pbt": 259.53,
+   "pat": 195.87,
+   "teu": 388624,
+   "railMMT": 27.6,
+   "pppMMT": null,
+   "capex": 277.01,
+   "incomePerTonne": 167.0,
+   "opexPerTonne": 85.0,
+   "surplusPerTonne": 82.0,
+   "operatingRatioPct": 50.9,
+   "railSharePct": 43.4,
+   "pppSharePct": null
+  },
+  {
+   "fy": "FY19",
+   "cargoMMT": 65.3,
+   "operatingIncome": 1201.39,
+   "cargoHandling": 414.68,
+   "portDock": 398.32,
+   "railway": 161.18,
+   "estate": 227.21,
+   "operatingExpenditure": 591.01,
+   "operatingSurplus": 610.38,
+   "financeMiscIncome": 99.42,
+   "financeMiscExpenditure": 508.89,
+   "pbt": 200.91,
+   "pat": 124.51,
+   "teu": 450460,
+   "railMMT": 27.54,
+   "pppMMT": null,
+   "capex": 146.18,
+   "incomePerTonne": 184.0,
+   "opexPerTonne": 91.0,
+   "surplusPerTonne": 93.0,
+   "operatingRatioPct": 49.2,
+   "railSharePct": 42.2,
+   "pppSharePct": null
+  },
+  {
+   "fy": "FY20",
+   "cargoMMT": 72.72,
+   "operatingIncome": 1404.19,
+   "cargoHandling": 514.44,
+   "portDock": 501.28,
+   "railway": 176.24,
+   "estate": 212.23,
+   "operatingExpenditure": 662.55,
+   "operatingSurplus": 741.64,
+   "financeMiscIncome": 107.65,
+   "financeMiscExpenditure": 543.45,
+   "pbt": 305.83,
+   "pat": 274.4,
+   "teu": 503630,
+   "railMMT": 32.13,
+   "pppMMT": 37.58,
+   "capex": 100.28,
+   "incomePerTonne": 193.0,
+   "opexPerTonne": 91.0,
+   "surplusPerTonne": 102.0,
+   "operatingRatioPct": 47.2,
+   "railSharePct": 44.2,
+   "pppSharePct": 51.7
+  },
+  {
+   "fy": "FY21",
+   "cargoMMT": 69.84,
+   "operatingIncome": 1445.69,
+   "cargoHandling": 550.96,
+   "portDock": 541.88,
+   "railway": 141.45,
+   "estate": 211.4,
+   "operatingExpenditure": 654.15,
+   "operatingSurplus": 791.54,
+   "financeMiscIncome": 78.16,
+   "financeMiscExpenditure": 464.39,
+   "pbt": 405.3,
+   "pat": 238.64,
+   "teu": 481072,
+   "railMMT": 32.38,
+   "pppMMT": 33.05,
+   "capex": 189.65,
+   "incomePerTonne": 207.0,
+   "opexPerTonne": 94.0,
+   "surplusPerTonne": 113.0,
+   "operatingRatioPct": 45.2,
+   "railSharePct": 46.4,
+   "pppSharePct": 47.3
+  },
+  {
+   "fy": "FY22",
+   "cargoMMT": 69.03,
+   "operatingIncome": 1525.89,
+   "cargoHandling": 623.81,
+   "portDock": 521.61,
+   "railway": 146.77,
+   "estate": 233.7,
+   "operatingExpenditure": 740.16,
+   "operatingSurplus": 785.73,
+   "financeMiscIncome": 83.97,
+   "financeMiscExpenditure": 506.84,
+   "pbt": 362.86,
+   "pat": 275.56,
+   "teu": 511794,
+   "railMMT": 30.86,
+   "pppMMT": 34.85,
+   "capex": 339.45,
+   "incomePerTonne": 221.0,
+   "opexPerTonne": 107.0,
+   "surplusPerTonne": 114.0,
+   "operatingRatioPct": 48.5,
+   "railSharePct": 44.7,
+   "pppSharePct": 50.5
+  },
+  {
+   "fy": "FY23",
+   "cargoMMT": 73.75,
+   "operatingIncome": 1726.86,
+   "cargoHandling": 647.57,
+   "portDock": 683.66,
+   "railway": 155.95,
+   "estate": 239.68,
+   "operatingExpenditure": 798.03,
+   "operatingSurplus": 928.83,
+   "financeMiscIncome": 135.69,
+   "financeMiscExpenditure": 533.31,
+   "pbt": 531.2,
+   "pat": 380.71,
+   "teu": 522119,
+   "railMMT": 31.47,
+   "pppMMT": 34.05,
+   "capex": 269.84,
+   "incomePerTonne": 234.0,
+   "opexPerTonne": 108.0,
+   "surplusPerTonne": 126.0,
+   "operatingRatioPct": 46.2,
+   "railSharePct": 42.7,
+   "pppSharePct": 46.2
+  },
+  {
+   "fy": "FY24",
+   "cargoMMT": 81.09,
+   "operatingIncome": 2074.74,
+   "cargoHandling": 727.16,
+   "portDock": 928.27,
+   "railway": 173.11,
+   "estate": 246.2,
+   "operatingExpenditure": 820.42,
+   "operatingSurplus": 1254.32,
+   "financeMiscIncome": 359.44,
+   "financeMiscExpenditure": 560.26,
+   "pbt": 1053.51,
+   "pat": 724.27,
+   "teu": 672629,
+   "railMMT": 32.12,
+   "pppMMT": 37.13,
+   "capex": 326.05,
+   "incomePerTonne": 256.0,
+   "opexPerTonne": 101.0,
+   "surplusPerTonne": 155.0,
+   "operatingRatioPct": 39.5,
+   "railSharePct": 39.6,
+   "pppSharePct": 45.8
+  },
+  {
+   "fy": "FY25",
+   "cargoMMT": 82.62,
+   "operatingIncome": 2115.27,
+   "cargoHandling": 738.69,
+   "portDock": 959.4,
+   "railway": 150.41,
+   "estate": 266.77,
+   "operatingExpenditure": 801.73,
+   "operatingSurplus": 1313.54,
+   "financeMiscIncome": 337.56,
+   "financeMiscExpenditure": 654.92,
+   "pbt": 996.18,
+   "pat": 675.41,
+   "teu": 618093,
+   "railMMT": 28.75,
+   "pppMMT": 37.01,
+   "capex": 240.06,
+   "incomePerTonne": 256.0,
+   "opexPerTonne": 97.0,
+   "surplusPerTonne": 159.0,
+   "operatingRatioPct": 37.9,
+   "railSharePct": 34.8,
+   "pppSharePct": 44.8
+  }
+ ],
+ "balanceSheet": [
+  {
+   "fy": "FY20",
+   "netFixedAssets": 1905.15,
+   "capitalWIP": 175.94,
+   "investments": 508.98,
+   "currentAssetsAndLoans": 2253.3,
+   "deferredTaxAsset": 154.56,
+   "totalAssets": 4997.93,
+   "netWorth": 2578.06,
+   "grants": 20.35,
+   "deferredTaxLiability": 0,
+   "currentLiabilitiesAndProvisionsDerived": 2399.52,
+   "currentRatioPct": 93.9
+  },
+  {
+   "fy": "FY21",
+   "netFixedAssets": 1865.17,
+   "capitalWIP": 237.54,
+   "investments": 519.47,
+   "currentAssetsAndLoans": 2312.76,
+   "deferredTaxAsset": 0,
+   "totalAssets": 4934.94,
+   "netWorth": 2872.72,
+   "grants": 21.27,
+   "deferredTaxLiability": 12.1,
+   "currentLiabilitiesAndProvisionsDerived": 2028.85,
+   "currentRatioPct": 114.0
+  },
+  {
+   "fy": "FY22",
+   "netFixedAssets": 1938.71,
+   "capitalWIP": 322.67,
+   "investments": 528.41,
+   "currentAssetsAndLoans": 2717.34,
+   "deferredTaxAsset": 21.61,
+   "totalAssets": 5528.74,
+   "netWorth": 3146.81,
+   "grants": 42.18,
+   "deferredTaxLiability": 0,
+   "currentLiabilitiesAndProvisionsDerived": 2339.75,
+   "currentRatioPct": 116.1
+  },
+  {
+   "fy": "FY23",
+   "netFixedAssets": 2103.64,
+   "capitalWIP": 327.04,
+   "investments": 530.01,
+   "currentAssetsAndLoans": 3296.08,
+   "deferredTaxAsset": 42.57,
+   "totalAssets": 6299.34,
+   "netWorth": 3527.74,
+   "grants": 54.07,
+   "deferredTaxLiability": 0,
+   "currentLiabilitiesAndProvisionsDerived": 2717.53,
+   "currentRatioPct": 121.3
+  },
+  {
+   "fy": "FY24",
+   "netFixedAssets": 2287.83,
+   "capitalWIP": 335.74,
+   "investments": 527.4,
+   "currentAssetsAndLoans": 4275.58,
+   "deferredTaxAsset": 70.03,
+   "totalAssets": 7496.58,
+   "netWorth": 4251.86,
+   "grants": 23.96,
+   "deferredTaxLiability": 0,
+   "currentLiabilitiesAndProvisionsDerived": 3220.76,
+   "currentRatioPct": 132.8
+  },
+  {
+   "fy": "FY25",
+   "netFixedAssets": 2347.11,
+   "capitalWIP": 406.07,
+   "investments": 539.87,
+   "currentAssetsAndLoans": 5315.71,
+   "deferredTaxAsset": 92.59,
+   "totalAssets": 8701.35,
+   "netWorth": 4926.9,
+   "grants": 48.96,
+   "deferredTaxLiability": 0,
+   "currentLiabilitiesAndProvisionsDerived": 3725.49,
+   "currentRatioPct": 142.7
+  }
+ ],
+ "financeNotes": [
+  "FY21 profit after tax is 238.64 in the accounts but 237.31 in that year's at-a-glance page.",
+  "The auditor said FY16 profit before tax was overstated by Rs 191.75 crore.",
+  "VPA publishes no cash-flow statement in the accounts read. Cash flow here is derived from the balance sheet and cash notes.",
+  "Current liabilities are the balancing figure. FY24 and FY25 match the published totals.",
+  "Figures are nominal, not adjusted for inflation."
+ ],
+ "growth": {
+  "period": "FY17 to FY25",
+  "cargoCagrPct": 3.9,
+  "incomeCagrPct": 11.0,
+  "opexCagrPct": 5.3,
+  "tag": "calculated",
+  "sources": [
+   "accounts",
+   "derived"
+  ]
+ },
+ "commodities": {
+  "FY23": [
+   {
+    "name": "Petroleum, oil & gas (POL)",
+    "mmt": 16.1,
+    "sharePct": 21.8
+   },
+   {
+    "name": "Iron ore & pellets",
+    "mmt": 14.41,
+    "sharePct": 19.5
+   },
+   {
+    "name": "Coking coal",
+    "mmt": 4.91,
+    "sharePct": 6.7
+   },
+   {
+    "name": "Steam coal",
+    "mmt": 11.71,
+    "sharePct": 15.9
+   },
+   {
+    "name": "Thermal coal",
+    "mmt": 1.13,
+    "sharePct": 1.5
+   },
+   {
+    "name": "Finished fertiliser",
+    "mmt": 1.43,
+    "sharePct": 1.9
+   },
+   {
+    "name": "Fertiliser raw material (dry)",
+    "mmt": 1.41,
+    "sharePct": 1.9
+   },
+   {
+    "name": "Containers",
+    "mmt": 8.46,
+    "sharePct": 11.5
+   },
+   {
+    "name": "Other",
+    "mmt": 14.2,
+    "sharePct": 19.3
+   }
+  ],
+  "FY24": [
+   {
+    "name": "Petroleum, oil & gas (POL)",
+    "mmt": 18.98,
+    "sharePct": 23.4
+   },
+   {
+    "name": "Iron ore & pellets",
+    "mmt": 15.59,
+    "sharePct": 19.2
+   },
+   {
+    "name": "Coking coal",
+    "mmt": 6.46,
+    "sharePct": 8.0
+   },
+   {
+    "name": "Steam coal",
+    "mmt": 9.81,
+    "sharePct": 12.1
+   },
+   {
+    "name": "Thermal coal",
+    "mmt": 0.0,
+    "sharePct": 0.0
+   },
+   {
+    "name": "Finished fertiliser",
+    "mmt": 1.74,
+    "sharePct": 2.1
+   },
+   {
+    "name": "Fertiliser raw material (dry)",
+    "mmt": 1.78,
+    "sharePct": 2.2
+   },
+   {
+    "name": "Containers",
+    "mmt": 11.08,
+    "sharePct": 13.7
+   },
+   {
+    "name": "Other",
+    "mmt": 15.65,
+    "sharePct": 19.3
+   }
+  ],
+  "FY25": [
+   {
+    "name": "Petroleum, oil & gas (POL)",
+    "mmt": 24.85,
+    "sharePct": 30.1
+   },
+   {
+    "name": "Iron ore & pellets",
+    "mmt": 11.57,
+    "sharePct": 14.0
+   },
+   {
+    "name": "Coking coal",
+    "mmt": 6.01,
+    "sharePct": 7.3
+   },
+   {
+    "name": "Steam coal",
+    "mmt": 8.92,
+    "sharePct": 10.8
+   },
+   {
+    "name": "Thermal coal",
+    "mmt": 0.0,
+    "sharePct": 0.0
+   },
+   {
+    "name": "Finished fertiliser",
+    "mmt": 1.28,
+    "sharePct": 1.6
+   },
+   {
+    "name": "Fertiliser raw material (dry)",
+    "mmt": 1.65,
+    "sharePct": 2.0
+   },
+   {
+    "name": "Containers",
+    "mmt": 9.94,
+    "sharePct": 12.0
+   },
+   {
+    "name": "Other",
+    "mmt": 18.4,
+    "sharePct": 22.3
+   }
+  ]
+ },
+ "commodityHHI": {
+  "FY23": 1667,
+  "FY24": 1696,
+  "FY25": 1917,
+  "note": "'Other' is counted as one group, which overstates concentration."
+ },
+ "trade": {
+  "period": "FY25",
+  "note": "Country totals only. No country-by-commodity or route data is published, so never draw precise ship tracks.",
+  "imports": [
+   {
+    "country": "Russia",
+    "mmt": 9.2,
+    "sharePct": 17.9
+   },
+   {
+    "country": "South Africa",
+    "mmt": 6.47,
+    "sharePct": 12.6
+   },
+   {
+    "country": "Indonesia",
+    "mmt": 4.46,
+    "sharePct": 8.7
+   },
+   {
+    "country": "Australia",
+    "mmt": 3.68,
+    "sharePct": 7.2
+   },
+   {
+    "country": "United Arab Emirates",
+    "mmt": 3.58,
+    "sharePct": 7.0
+   },
+   {
+    "country": "Iraq",
+    "mmt": 2.91,
+    "sharePct": 5.7
+   },
+   {
+    "country": "United States",
+    "mmt": 2.86,
+    "sharePct": 5.6
+   },
+   {
+    "country": "Nigeria",
+    "mmt": 1.81,
+    "sharePct": 3.5
+   },
+   {
+    "country": "China",
+    "mmt": 1.77,
+    "sharePct": 3.5
+   },
+   {
+    "country": "Saudi Arabia",
+    "mmt": 1.52,
+    "sharePct": 3.0
+   },
+   {
+    "country": "Gabon",
+    "mmt": 1.41,
+    "sharePct": 2.7
+   },
+   {
+    "country": "Qatar",
+    "mmt": 0.88,
+    "sharePct": 1.7
+   },
+   {
+    "country": "Guinea",
+    "mmt": 0.87,
+    "sharePct": 1.7
+   },
+   {
+    "country": "Malaysia",
+    "mmt": 0.77,
+    "sharePct": 1.5
+   },
+   {
+    "country": "Sri Lanka",
+    "mmt": 0.76,
+    "sharePct": 1.5
+   },
+   {
+    "country": "Oman",
+    "mmt": 0.72,
+    "sharePct": 1.4
+   },
+   {
+    "country": "Mozambique",
+    "mmt": 0.69,
+    "sharePct": 1.3
+   },
+   {
+    "country": "Kuwait",
+    "mmt": 0.68,
+    "sharePct": 1.3
+   },
+   {
+    "country": "Togo",
+    "mmt": 0.59,
+    "sharePct": 1.1
+   },
+   {
+    "country": "Algeria",
+    "mmt": 0.54,
+    "sharePct": 1.1
+   }
+  ],
+  "exports": [
+   {
+    "country": "Malaysia",
+    "mmt": 2.66,
+    "sharePct": 22.4
+   },
+   {
+    "country": "Sri Lanka",
+    "mmt": 1.9,
+    "sharePct": 16.1
+   },
+   {
+    "country": "China",
+    "mmt": 1.63,
+    "sharePct": 13.7
+   },
+   {
+    "country": "Singapore",
+    "mmt": 1.46,
+    "sharePct": 12.3
+   },
+   {
+    "country": "Oman",
+    "mmt": 0.65,
+    "sharePct": 5.5
+   },
+   {
+    "country": "United Kingdom",
+    "mmt": 0.4,
+    "sharePct": 3.4
+   },
+   {
+    "country": "Benin",
+    "mmt": 0.39,
+    "sharePct": 3.3
+   },
+   {
+    "country": "Cote d'Ivoire",
+    "mmt": 0.3,
+    "sharePct": 2.5
+   },
+   {
+    "country": "United Arab Emirates",
+    "mmt": 0.27,
+    "sharePct": 2.3
+   },
+   {
+    "country": "Russia",
+    "mmt": 0.25,
+    "sharePct": 2.1
+   },
+   {
+    "country": "Italy",
+    "mmt": 0.25,
+    "sharePct": 2.1
+   },
+   {
+    "country": "Qatar",
+    "mmt": 0.23,
+    "sharePct": 2.0
+   },
+   {
+    "country": "South Korea",
+    "mmt": 0.19,
+    "sharePct": 1.6
+   },
+   {
+    "country": "Egypt",
+    "mmt": 0.18,
+    "sharePct": 1.5
+   },
+   {
+    "country": "Togo",
+    "mmt": 0.13,
+    "sharePct": 1.1
+   },
+   {
+    "country": "Bangladesh",
+    "mmt": 0.12,
+    "sharePct": 1.0
+   },
+   {
+    "country": "Senegal",
+    "mmt": 0.12,
+    "sharePct": 1.0
+   },
+   {
+    "country": "United States",
+    "mmt": 0.12,
+    "sharePct": 1.0
+   }
+  ],
+  "gulfImportSharePct": 18.6,
+  "gulfNote": "UAE, Iraq, Saudi Arabia, Qatar and Kuwait; all cargo. Some loads outside the Strait of Hormuz.",
+  "sources": [
+   "admin25",
+   "derived"
+  ]
+ },
+ "operations": {
+  "berthCount": "31 + 1 single point mooring",
+  "capacityMTPA": 154.71,
+  "utilisationFY25Pct": 53.4,
+  "staff": 2272,
+  "trackKm": 175,
+  "sidings": 29,
+  "vesselsFY25": 2127,
+  "largestInner": "Baby Cape, to 14.5 m draft",
+  "largestOuter": "Capesize, to 18.1 m draft",
+  "turnaroundDaysFY25": {
+   "All cargo": 2.88,
+   "Containers": 0.89,
+   "Liquid bulk": 1.98,
+   "Dry bulk, mechanised": 2.32,
+   "Dry bulk, conventional": 4.49,
+   "Break bulk": 9.14
+  },
+  "outputPerBerthDay": 14010,
+  "berthOccupancyPct": {
+   "all": 60,
+   "vpa": 63,
+   "ppp": 51
+  },
+  "waiting": {
+   "portAccountHours": 0.71,
+   "totalHours": 5.01,
+   "period": "Apr-Sep 2025",
+   "sources": [
+    "updateH1"
+   ]
+  },
+  "berths": [
+   {
+    "name": "EQ-1",
+    "draftM": 14.5,
+    "loaM": 240,
+    "occupancyPct": 26,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-2/EQ-3",
+    "draftM": 14.5,
+    "loaM": 240,
+    "occupancyPct": 86,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-4/EQ-5",
+    "draftM": null,
+    "loaM": null,
+    "occupancyPct": 84,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-6",
+    "draftM": 12.5,
+    "loaM": 240,
+    "occupancyPct": 87,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-7",
+    "draftM": 14.5,
+    "loaM": 240,
+    "occupancyPct": 87,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-1",
+    "draftM": 14.0,
+    "loaM": 240,
+    "occupancyPct": 71,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-2",
+    "draftM": 13.5,
+    "loaM": 240,
+    "occupancyPct": 65,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-3",
+    "draftM": 13.5,
+    "loaM": 240,
+    "occupancyPct": 73,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-4",
+    "draftM": 11.5,
+    "loaM": 240,
+    "occupancyPct": 53,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-5",
+    "draftM": 11.5,
+    "loaM": 240,
+    "occupancyPct": 27,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-6",
+    "draftM": 14.5,
+    "loaM": 230,
+    "occupancyPct": 68,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-7",
+    "draftM": 14.5,
+    "loaM": 240,
+    "occupancyPct": 72,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "WQ-8",
+    "draftM": 14.5,
+    "loaM": 240,
+    "occupancyPct": 68,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "OR-1",
+    "draftM": 11.0,
+    "loaM": 195,
+    "occupancyPct": 81,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "OR-3",
+    "draftM": 10.5,
+    "loaM": 160,
+    "occupancyPct": 41,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "Fertiliser berth",
+    "draftM": 10.06,
+    "loaM": 200,
+    "occupancyPct": 28,
+    "operator": "VPA",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-8",
+    "draftM": 14.5,
+    "loaM": 235,
+    "occupancyPct": 57,
+    "operator": "Vizag Seaport",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-9",
+    "draftM": 14.5,
+    "loaM": 235,
+    "occupancyPct": 60,
+    "operator": "Vizag Seaport",
+    "harbour": "Inner"
+   },
+   {
+    "name": "EQ-10",
+    "draftM": 11.0,
+    "loaM": 160,
+    "occupancyPct": 6,
+    "operator": "AVR Infra (reported terminated later)",
+    "harbour": "Inner"
+   },
+   {
+    "name": "Offshore tanker terminal",
+    "draftM": 17.0,
+    "loaM": 280,
+    "occupancyPct": 44,
+    "operator": "VPA",
+    "harbour": "Outer"
+   },
+   {
+    "name": "LPG berth",
+    "draftM": 14.0,
+    "loaM": 230,
+    "occupancyPct": 75,
+    "operator": "VPA",
+    "harbour": "Outer"
+   },
+   {
+    "name": "Cruise terminal",
+    "draftM": 8.5,
+    "loaM": 300,
+    "occupancyPct": null,
+    "operator": "VPA",
+    "harbour": "Outer"
+   },
+   {
+    "name": "VGCB coal terminal",
+    "draftM": 18.1,
+    "loaM": 300,
+    "occupancyPct": 63,
+    "operator": "Vizag General Cargo Berth",
+    "harbour": "Outer"
+   },
+   {
+    "name": "Ore berths 1 & 2",
+    "draftM": null,
+    "loaM": 300,
+    "occupancyPct": 65,
+    "operator": "Essar Vizag Terminals",
+    "harbour": "Outer"
+   },
+   {
+    "name": "Container terminal 1-2",
+    "draftM": 16.0,
+    "loaM": 390,
+    "occupancyPct": 58,
+    "operator": "Visakha Container Terminal",
+    "harbour": "Outer"
+   },
+   {
+    "name": "Container terminal 3-4",
+    "draftM": 16.0,
+    "loaM": 390,
+    "occupancyPct": 50,
+    "operator": "Visakha Container Terminal",
+    "harbour": "Outer"
+   }
+  ],
+  "sources": [
+   "admin25",
+   "update25"
+  ],
+  "berthNote": "Each row is a berth record at 31 March 2025; combined berths share one figure. OR-2 was decommissioned. This list is not the full count of 31.",
+  "definitionBreak": "From FY24, turnaround is measured from pilot boarding to de-boarding. Do not join earlier years in one line."
+ },
+ "peers": {
+  "note": "FY25 hours and tonnes per ship berth day, from one publication, extracted by machine.",
+  "rows": [
+   {
+    "port": "Visakhapatnam",
+    "mmt": 82.62,
+    "turnaroundHours": 69.19,
+    "outputPerBerthDay": 14010
+   },
+   {
+    "port": "Paradip",
+    "mmt": 150.41,
+    "turnaroundHours": 46.16,
+    "outputPerBerthDay": 34303
+   },
+   {
+    "port": "Chennai",
+    "mmt": 54.96,
+    "turnaroundHours": 48.69,
+    "outputPerBerthDay": 16900
+   },
+   {
+    "port": "Kamarajar",
+    "mmt": 48.41,
+    "turnaroundHours": 46.66,
+    "outputPerBerthDay": 26428
+   },
+   {
+    "port": "JNPA",
+    "mmt": 92.12,
+    "turnaroundHours": 26.35,
+    "outputPerBerthDay": 26893
+   },
+   {
+    "port": "Deendayal",
+    "mmt": 150.16,
+    "turnaroundHours": 58.56,
+    "outputPerBerthDay": 16664
+   },
+   {
+    "port": "All major ports",
+    "mmt": 854.86,
+    "turnaroundHours": 49.47,
+    "outputPerBerthDay": 18293
+   }
+  ],
+  "finance": [
+   {
+    "port": "Visakhapatnam",
+    "fy": "FY25",
+    "operatingIncome": 2115.27,
+    "operatingRatioPct": 37.9,
+    "incomePerTonne": 256
+   },
+   {
+    "port": "Paradip",
+    "fy": "FY26",
+    "operatingIncome": 2530.14,
+    "operatingRatioPct": 33.1,
+    "incomePerTonne": 162
+   },
+   {
+    "port": "Chennai",
+    "fy": "FY25",
+    "operatingIncome": 1094.34,
+    "operatingRatioPct": 61.6,
+    "incomePerTonne": 199
+   }
+  ],
+  "financeNote": "Different years and cargo mixes. Paradip and Chennai were read by OCR.",
+  "gangavaram": {
+   "fy": "FY26",
+   "mmt": 36.6,
+   "capacityMMT": 64,
+   "revenue": 1288.18,
+   "pat": 210.19,
+   "incomePerTonne": 352,
+   "tag": "calculated",
+   "note": "A separate private Adani port nearby. It books terminal-handling revenue; VPA is partly a landlord. Not a price comparison.",
+   "sources": [
+    "gpl",
+    "gplops"
+   ]
+  },
+  "cppi": [
+   {
+    "year": 2021,
+    "score": 36
+   },
+   {
+    "year": 2022,
+    "score": 20
+   },
+   {
+    "year": 2023,
+    "score": 115
+   },
+   {
+    "year": 2024,
+    "score": 46
+   },
+   {
+    "year": 2025,
+    "score": 23
+   }
+  ],
+  "cppiRank2025": 104,
+  "cppiNote": "Containers only, about 12% of VPA tonnage.",
+  "sources": [
+   "mopsw26",
+   "cppi",
+   "cppi23",
+   "paradip",
+   "chennai"
+  ]
+ },
+ "insights": [
+  {
+   "id": "price",
+   "headline": "Cargo grew 3.9% a year. Income grew 11%.",
+   "body": "In FY17 the port earned Rs 150 for every tonne. By FY25 it earned Rs 256. Prices, cargo mix and land rent did more than volume.",
+   "tag": "calculated",
+   "sources": [
+    "accounts",
+    "derived"
+   ]
+  },
+  {
+   "id": "oil",
+   "headline": "Oil is now three tonnes in every ten.",
+   "body": "Petroleum went from 21.8% to 30.1% of cargo in two years. HPCL's Visakh refinery throughput rose from 8.41 to 15.31 MMT between FY22 and FY25, close to the rise in the port's crude and fuel imports. A strong match, not proof of one customer.",
+   "tag": "calculated",
+   "sources": [
+    "admin25",
+    "hpcl",
+    "derived"
+   ]
+  },
+  {
+   "id": "rail",
+   "headline": "Rail's share fell from 46% to 35%.",
+   "body": "Part of this is arithmetic: crude oil travels by pipe. Part is less iron ore and other cargo arriving by train.",
+   "tag": "calculated",
+   "sources": [
+    "accounts",
+    "admin25",
+    "derived"
+   ]
+  },
+  {
+   "id": "wait",
+   "headline": "0.71 hours, or 5.01?",
+   "body": "Waiting time often counts only delay charged to the port. Counting every cause, ships waited about five hours in April to September 2025.",
+   "tag": "verified",
+   "sources": [
+    "updateH1"
+   ]
+  },
+  {
+   "id": "cppi",
+   "headline": "Top 20 for containers in 2023. Ranked 104th in 2025.",
+   "body": "On the World Bank's current series the score went from 115 to 46 to 23. The 2023 headline was real. It is also out of date.",
+   "tag": "verified",
+   "sources": [
+    "cppi",
+    "cppi23"
+   ]
+  }
+ ],
+ "audit": {
+  "title": "What India's auditor found in FY25",
+  "sources": [
+   "admin25"
+  ],
+  "items": [
+   {
+    "finding": "Rs 237.97 crore of Rs 420.00 crore in dues was over five years old. Similar comments were made every year from FY20.",
+    "tag": "verified"
+   },
+   {
+    "finding": "Internal controls were described as not adequate. The audit raised 67 findings; VPA corrected 40 in the accounts.",
+    "tag": "verified"
+   },
+   {
+    "finding": "Confirmation for Rs 572.31 crore of pension-fund annuities was not produced.",
+    "tag": "verified"
+   },
+   {
+    "finding": "The gratuity fund was short by Rs 75.93 crore. In FY21 the auditor put the pension and gratuity gap at Rs 853.28 crore.",
+    "tag": "verified"
+   }
+  ],
+  "reply": "VPA's published replies include waiting for a Ministry policy on doubtful debts and staff shortages. Audit comments are findings, not proof of wrongdoing."
+ },
+ "projects": [
+  {
+   "name": "PPP berths WQ-6, WQ-7/8, EQ-6, EQ-7",
+   "status": "under construction",
+   "summary": "About Rs 800 crore of private investment; due by 2027.",
+   "caution": "Some of these berths already handle cargo.",
+   "sources": [
+    "pib1111",
+    "admin25"
+   ]
+  },
+  {
+   "name": "Operate-and-maintain contracts: WQ-1/1RE, WQ-2/3, EQ-3",
+   "status": "approved",
+   "summary": "Foundation stone on 11 Nov 2026; about Rs 580 crore contract value.",
+   "caution": "The Rs 560 crore headline is smaller than these contracts. Contract value is not VPA capital spending.",
+   "sources": [
+    "pib1111"
+   ]
+  },
+  {
+   "name": "Port promenade",
+   "status": "operational",
+   "summary": "710 m public waterfront, opened 11 Nov 2026.",
+   "caution": "Reported at Rs 19 crore; the project page says Rs 15.90 crore.",
+   "sources": [
+    "pib1111",
+    "projects"
+   ]
+  },
+  {
+   "name": "Internal flyovers, channel deepening, new rail bridge",
+   "status": "proposed",
+   "summary": "Studies and board notes. Flyover estimate Rs 334.89 crore.",
+   "caution": "Not capacity.",
+   "sources": [
+    "projects"
+   ]
+  },
+  {
+   "name": "Dugarajapatnam shipbuilding cluster",
+   "status": "approved",
+   "summary": "In-principle approval. VPA owns half of the project company. Mazagon Dock signed an MoU on 18 Sep 2026.",
+   "caution": "In principle only: the feasibility report is under review and land is being acquired. Published figures of Rs 29,254, 30,000 and 15,000 crore measure different things.",
+   "sources": [
+    "dgma",
+    "mdl"
+   ]
+  },
+  {
+   "name": "Pudimadaka green hydrogen hub",
+   "status": "announced",
+   "summary": "NTPC Green hub, 46 km from VPA. Foundation stone January 2025; engineering and tendering continue.",
+   "caution": "Plans include its own jetty, so cargo for VPA is unproven.",
+   "sources": [
+    "ngel"
+   ]
+  },
+  {
+   "name": "AM/NS Rajayyapeta steel plant",
+   "status": "approved",
+   "summary": "Environmental clearance on 20 Mar 2026 for 8.2 MTPA; groundbreaking in March 2026.",
+   "caution": "A linked captive port is proposed; reported capacities conflict.",
+   "sources": [
+    "amns",
+    "amnsport"
+   ]
+  },
+  {
+   "name": "Mulapeta, Machilipatnam, Ramayapatnam ports",
+   "status": "under construction",
+   "summary": "State greenfield ports, officially targeted for late 2026.",
+   "caution": "Official target; completion not confirmed.",
+   "sources": [
+    "tnie"
+   ]
+  }
+ ],
+ "swot": {
+  "strengths": [
+   "No borrowings; operating ratio of 37.9% in FY25",
+   "18.1 m draft in the outer harbour, plus an offshore crude mooring",
+   "Fourth-largest major port in FY25; four straight years of growth to FY26"
+  ],
+  "weaknesses": [
+   "Turnaround of 69.2 hours against a 49.5-hour major-port average (FY25)",
+   "Auditor: internal controls not adequate; old dues not provided for",
+   "World Bank container score fell in 2024 and again in 2025"
+  ],
+  "opportunities": [
+   "Four PPP berth projects due by 2027",
+   "Half-ownership of the Dugarajapatnam project company",
+   "A stated shift towards non-dusty cargo"
+  ],
+  "threats": [
+   "Scenario: an AM/NS captive port could affect pellet exports, 8.9% of FY25 cargo",
+   "18.6% of overseas imports came from five Gulf producers",
+   "New state ports, and unresolved dust in the city"
+  ],
+  "sources": [
+   "admin25",
+   "mopsw26",
+   "cppi",
+   "pib1111",
+   "amns"
+  ]
+ },
+ "pulse": {
+  "note": "A small sample of public threads, read as search excerpts. Not a survey.",
+  "themes": [
+   {
+    "theme": "Coal dust is the main complaint",
+    "tag": "opinion",
+    "sources": [
+     "reddit"
+    ]
+   },
+   {
+    "theme": "A port circular says most internal trucks were not fully covered; the state pollution board inspected on 19 Aug 2026",
+    "tag": "verified",
+    "sources": [
+     "circ"
+    ]
+   },
+   {
+    "theme": "No study was found that isolates the port's share of city dust",
+    "tag": "calculated",
+    "sources": [
+     "derived"
+    ]
+   }
+  ]
+ },
+ "history": [
+  {
+   "year": "1927-33",
+   "text": "Bengal Nagpur Railway builds the inner harbour to export manganese ore.",
+   "sources": [
+    "history"
+   ]
+  },
+  {
+   "year": "1933",
+   "text": "SS Jaladurga arrives on 7 October. Lord Willingdon opens the port on 19 December.",
+   "sources": [
+    "history"
+   ]
+  },
+  {
+   "year": "1964",
+   "text": "Administration passes to the Port Trust in February.",
+   "sources": [
+    "history"
+   ]
+  },
+  {
+   "year": "1975",
+   "text": "Outer-harbour ore berths commissioned.",
+   "sources": [
+    "admin25"
+   ]
+  },
+  {
+   "year": "1985",
+   "text": "Offshore tanker terminal commissioned.",
+   "sources": [
+    "admin25"
+   ]
+  },
+  {
+   "year": "2003",
+   "text": "Container terminal commissioned.",
+   "sources": [
+    "admin25"
+   ]
+  },
+  {
+   "year": "2026",
+   "text": "FY26 ends at a record 91.17 MMT.",
+   "sources": [
+    "pib1112"
+   ]
+  }
+ ],
+ "marketPeers": {
+  "note": "VPA is not listed. Shown for scale only, not investment advice. FY26, Rs crore.",
+  "rows": [
+   {
+    "company": "Adani Ports & SEZ",
+    "revenue": 38736,
+    "pat": 12782,
+    "detail": "500.8 MMT of port cargo",
+    "tag": "reported",
+    "sources": [
+     "apsez"
+    ]
+   },
+   {
+    "company": "JSW Infrastructure",
+    "revenue": 5361,
+    "pat": 1676,
+    "detail": "122 MMT; adjusted profit reported near 1,644",
+    "tag": "reported",
+    "sources": [
+     "jsw"
+    ]
+   },
+   {
+    "company": "Garden Reach Shipbuilders",
+    "revenue": 7002,
+    "pat": 748,
+    "detail": "Shipbuilder",
+    "tag": "reported",
+    "sources": [
+     "grse"
+    ]
+   },
+   {
+    "company": "Cochin Shipyard",
+    "revenue": 5022,
+    "pat": 717,
+    "detail": "Sources differ on the revenue line",
+    "tag": "reported",
+    "sources": [
+     "csl"
+    ]
+   }
+  ]
+ },
+ "recommendations": [
+  {
+   "problem": "Ships stay longer than at peer ports",
+   "evidence": "69.2 hours against 49.5, FY25",
+   "action": "Publish turnaround by cargo and cause; mechanise conventional dry bulk first",
+   "benefit": "Frees berth days where EQ-6 and EQ-7 are 87% occupied",
+   "risk": "Cargo mix explains part of the gap",
+   "measure": "Mix-adjusted turnaround",
+   "sources": [
+    "mopsw26",
+    "admin25"
+   ]
+  },
+  {
+   "problem": "Old unpaid dues",
+   "evidence": "Rs 237.97 crore over five years old",
+   "action": "Publish an ageing table; recover or provide by class of debtor",
+   "benefit": "Cleaner profit and audit record",
+   "risk": "Some dues are owed by government bodies",
+   "measure": "Share of dues over five years old",
+   "sources": [
+    "admin25"
+   ]
+  },
+  {
+   "problem": "Growing dependence on oil",
+   "evidence": "30.1% of cargo in FY25",
+   "action": "Disclose customer concentration; stress-test a Gulf disruption",
+   "benefit": "Earlier warning",
+   "risk": "Commercial confidentiality",
+   "measure": "Top-customer share",
+   "sources": [
+    "admin25",
+    "hpcl"
+   ]
+  },
+  {
+   "problem": "Dust and the city",
+   "evidence": "Circular 1993/2026; inspection on 19 Aug 2026",
+   "action": "Publish live air monitors and fund a source study",
+   "benefit": "Evidence replaces argument",
+   "risk": "Results may be uncomfortable",
+   "measure": "PM10 at the port boundary",
+   "sources": [
+    "circ",
+    "projects"
+   ]
+  }
+ ],
+ "careers": {
+  "note": "Roles to explore, not a forecast. VPA employed 2,272 people in March 2025. Twenty trade apprenticeships were advertised in 2026 and have closed.",
+  "sources": [
+   "admin25",
+   "jobs"
+  ],
+  "roles": [
+   {
+    "area": "Port operations",
+    "roles": "Terminal operations, traffic planning, commercial analysis"
+   },
+   {
+    "area": "Shipping",
+    "roles": "Agency, chartering, trade-lane analysis"
+   },
+   {
+    "area": "Supply chain",
+    "roles": "Network planning, rail and road logistics"
+   },
+   {
+    "area": "Finance",
+    "roles": "Project finance, trade finance, port accounts and audit"
+   },
+   {
+    "area": "Data",
+    "roles": "Maritime data, port systems, mapping"
+   },
+   {
+    "area": "Energy and shipbuilding",
+    "roles": "Green-fuel logistics, contracts, procurement"
+   }
+  ]
+ },
+ "whatIf": {
+  "title": "Run the port's numbers",
+  "tag": "calculated",
+  "baseYear": "FY25",
+  "warning": "A teaching model, not a forecast. It applies one average income per tonne to every cargo because income by commodity is not published in this form.",
+  "cargoMMT": {
+   "POL": 24.85,
+   "Iron ore & pellets": 11.57,
+   "Coal": 14.92,
+   "Fertiliser": 2.94,
+   "Containers": 9.94,
+   "Other": 18.4
+  },
+  "totalMMT": 82.62,
+  "operatingIncome": 2115.27,
+  "estateIncome": 266.77,
+  "operatingExpenditure": 801.73,
+  "variableIncomePerTonneRs": 223.74,
+  "defaultVariableCostPct": 30,
+  "formula": "income = estateIncome + sum(cargo * (1 + change)) * 223.74 / 10; cost = 801.73 * (1 - v + v * newTonnes / 82.62); surplus = income - cost",
+  "sources": [
+   "admin25",
+   "accounts",
+   "derived"
+  ]
+ },
+ "globalContext": [
+  {
+   "text": "IMO's Net-Zero Framework has not been adopted. Talks are due to resume on 4 December 2026, subject to confirmation.",
+   "tag": "verified",
+   "sources": [
+    "imo"
+   ]
+  }
+ ],
+ "sources": {
+  "dcd": {
+   "title": "DCD: Google breaks ground",
+   "url": "https://www.datacenterdynamics.com/en/news/google-breaks-ground-on-15bn-data-center-project-in-india/"
+  },
+  "tnm": {
+   "title": "The News Minute: Reliance-Brookfield",
+   "url": "https://www.thenewsminute.com/news/reliance-brookfield-joint-venture-to-invest-usd-11-billion-to-build-ai-data-centres-in-vizag"
+  },
+  "outlook": {
+   "title": "Outlook Business: Meta and Sify",
+   "url": "https://www.outlookbusiness.com/deeptech/meta-sify-technologies-to-set-up-gigantic-500mw-data-centre-in-vizag"
+  },
+  "cognizant": {
+   "title": "Cognizant, 12 Dec 2025",
+   "url": "https://news.cognizant.com/2025-12-12-Cognizant-breaks-ground-on-8000-seater-campus-in-Visakhapatnam"
+  },
+  "itln": {
+   "title": "ITLN: airport opens",
+   "url": "https://www.itln.in/aviation/alluri-sitarama-raju-international-airport-begins-commercial-operations-1360358"
+  },
+  "air": {
+   "title": "Akashvani, 10 Jan 2026",
+   "url": "https://newsonair.gov.in/union-minister-sarbananda-sonowal-lays-foundation-for-major-projects-at-visakhapatnam-port/"
+  },
+  "hindu": {
+   "title": "The Hindu: CII summit",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-attracts-major-investments-at-cii-summit-in-visakhapatnam/article71701918.ece"
+  },
+  "yocii": {
+   "title": "Yo! Vizag, 13 Nov 2026",
+   "url": "https://www.yovizag.com/cii-summit-73-mous-signed-on-first-day/"
+  },
+  "yomou": {
+   "title": "Yo! Vizag, 31 Oct 2025",
+   "url": "https://www.yovizag.com/visakhapatnam-port-authority-signs-rs-39216-cr-mous/"
+  },
+  "rvnl": {
+   "title": "RVNL on X",
+   "url": "https://x.com/RailVikas/status/1989232877725438337"
+  },
+  "admin25": {
+   "title": "VPA Administration Report, Annual Accounts and Audit Report 2024-25",
+   "url": "https://vpt.shipping.gov.in/Template/navigateTemplate/gnt/QW5udWFsIFJlcG9ydA=="
+  },
+  "accounts": {
+   "title": "VPA audited annual accounts, 2015-16 to 2024-25",
+   "url": "https://vpt.shipping.gov.in/Template/navigateTemplate/gnt/QW5udWFsIFJlcG9ydA=="
+  },
+  "pib1112": {
+   "title": "Press Information Bureau, 12 Nov 2026",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335584"
+  },
+  "pib1111": {
+   "title": "Press Information Bureau, 11 Nov 2026",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335212"
+  },
+  "bulletin": {
+   "title": "Ministry of Ports: cargo at major ports, October 2026 (advance estimates)",
+   "url": "https://shipmin.gov.in/"
+  },
+  "update25": {
+   "title": "Update on Indian Port Sector, 31 Mar 2025",
+   "url": "https://shipmin.gov.in/sites/default/files/Update%20on%20Indian%20Ports%20Sector%20upto%2031.03.2025_0.pdf"
+  },
+  "updateH1": {
+   "title": "Update on the Indian Port Sector, Apr-Sep 2025",
+   "url": "https://shipmin.gov.in/sites/default/files/Update%20on%20the%20Indian%20Port%20Sector%20April-Sept%202025.%20%281%29.pdf"
+  },
+  "mopsw26": {
+   "title": "Ministry of Ports, Annual Report 2025-26",
+   "url": "https://shipmin.gov.in/sites/default/files/Annual%20Report%202025-26%20english.pdf"
+  },
+  "cppi": {
+   "title": "World Bank, Container Port Performance Index 2025",
+   "url": "https://openknowledge.worldbank.org/bitstreams/c22815ce-b747-4e58-892b-3f0f04dcf4d1/download"
+  },
+  "cppi23": {
+   "title": "World Bank, CPPI 2023 press release",
+   "url": "https://www.worldbank.org/en/news/press-release/2024/06/01/regional-disruptions-drive-changes-in-global-container-port-performance-ranking"
+  },
+  "hpcl": {
+   "title": "HPCL refineries",
+   "url": "https://www.hindustanpetroleum.com/hp-refineries"
+  },
+  "gpl": {
+   "title": "Adani Gangavaram Port Ltd, FY26 accounts",
+   "url": "https://www.adaniports.com/-/media/Project/Ports/Investors/FY25-26/Adani-Gangavaram-Port-Limited.pdf"
+  },
+  "gplops": {
+   "title": "Adani Ports, FY26 operational performance",
+   "url": "https://www.adaniports.com/digital-reports/ports/2026/operational-performance-ports.html"
+  },
+  "mdl": {
+   "title": "Mazagon Dock Shipbuilders, 18 Sep 2026",
+   "url": "https://mazagondock.in/images/pdf/V1_Press%20Release%20AP.pdf"
+  },
+  "dgma": {
+   "title": "DGMA: Dugarajapatnam cluster",
+   "url": "https://dgma.gov.in/naval-architecture/greenfield-clusters/greenfield-shipbuilding-clusters-andhra-pradesh-dugarajapatnam"
+  },
+  "ngel": {
+   "title": "NTPC Green Energy: hydrogen hub",
+   "url": "https://www.ngel.in/page/hydrogen-hub"
+  },
+  "amns": {
+   "title": "Environmental clearance, AM/NS Rajayyapeta, 20 Mar 2026",
+   "url": "https://www.amns.in/storage/statutory-documents/March2026/EC_8_2_MTPA_ISP_Rajayapetta.pdf"
+  },
+  "amnsport": {
+   "title": "India Seatrade News: AM/NS captive port",
+   "url": "https://indiaseatradenews.com/andhra-pradesh-cabinet-approves-captive-port-for-arcelormittal-nippons-steel-plant-in-anakapalli-district/"
+  },
+  "circ": {
+   "title": "VPA Circular 1993/2026, 28 Sep 2026",
+   "url": "https://vpt.shipping.gov.in/admin_assets/uploads/1791287799_Circular_No_1993_Control_of_dust_pollution_during_cargo_handli.pdf"
+  },
+  "projects": {
+   "title": "VPA: ongoing infrastructure projects",
+   "url": "https://vpt.shipping.gov.in/Template/navigateTemplate/gnt/T25nb2luZyBJbmZyYSBQcm9qZWN0cw=="
+  },
+  "tnie": {
+   "title": "New Indian Express, 31 Aug 2026",
+   "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Aug/31/three-key-ports-on-track-for-2026-launch-ap-minister-janardhan-reddy"
+  },
+  "imo": {
+   "title": "IMO: MEPC 84 outcome",
+   "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-progresses-work-on-ship-emissions-pollution-and-ocean-protection.aspx"
+  },
+  "history": {
+   "title": "VPA: Our History",
+   "url": "https://vizagport.com/Template/navigateTemplate/gnt/T3VyIEhpc3Rvcnk="
+  },
+  "reddit": {
+   "title": "r/Visakhapatnam thread (search excerpt)",
+   "url": "https://www.reddit.com/r/Visakhapatnam/comments/1suofu1/so_much_coal_dust_in_vizag/"
+  },
+  "paradip": {
+   "title": "Paradip Port Authority accounts 2025-26",
+   "url": "https://paradipport.gov.in/annual-reports/"
+  },
+  "chennai": {
+   "title": "Chennai Port Authority Annual Report 2024-25",
+   "url": "https://www.chennaiport.gov.in/"
+  },
+  "apsez": {
+   "title": "Adani Ports FY26 results",
+   "url": "https://www.adaniports.com/newsroom/media-releases/apsez-fy26-revenue-grows-25-outperforms-guidance"
+  },
+  "jsw": {
+   "title": "India Shipping News: JSW Infrastructure FY26",
+   "url": "https://indiashippingnews.com/ports/jsw-infrastructure-q4-fy26-results-net-profit-at-%e2%82%b91676-crore/"
+  },
+  "grse": {
+   "title": "PSU Watch: GRSE FY26",
+   "url": "https://psuwatch.com/defencewatch/grses-net-profit-jumps-42-to-rs-748-crore-in-fy26"
+  },
+  "csl": {
+   "title": "Investywise: Cochin Shipyard FY26",
+   "url": "https://www.investywise.com/?p=115298"
+  },
+  "jobs": {
+   "title": "Sarkari Jobs: VPA apprentices 2026",
+   "url": "https://www.sarkarijobs.com/visakhapatnam-port-authority-apprentice-recruitment-2026-announced-apply-for-20-trade-apprentice-posts-by-september-23/"
+  },
+  "derived": {
+   "title": "Calculated by this project from the cited inputs",
+   "url": null
+  }
+ },
+ "analysis": {
+  "expenditure": [
+   {
+    "fy": "FY16",
+    "cargoHandling": 112.13,
+    "portDock": 126.98,
+    "railway": 84.16,
+    "landBuildings": 44.75,
+    "management": 183.67
+   },
+   {
+    "fy": "FY17",
+    "cargoHandling": 94.9,
+    "portDock": 117.55,
+    "railway": 84.8,
+    "landBuildings": 46.17,
+    "management": 188.23
+   },
+   {
+    "fy": "FY18",
+    "cargoHandling": 94.96,
+    "portDock": 133.41,
+    "railway": 74.39,
+    "landBuildings": 47.73,
+    "management": 191.2
+   },
+   {
+    "fy": "FY19",
+    "cargoHandling": 113.08,
+    "portDock": 133.22,
+    "railway": 105.99,
+    "landBuildings": 40.13,
+    "management": 198.59
+   },
+   {
+    "fy": "FY20",
+    "cargoHandling": 135.52,
+    "portDock": 158.44,
+    "railway": 95.15,
+    "landBuildings": 51.0,
+    "management": 222.44
+   },
+   {
+    "fy": "FY21",
+    "cargoHandling": 153.11,
+    "portDock": 144.87,
+    "railway": 90.34,
+    "landBuildings": 43.29,
+    "management": 222.53
+   },
+   {
+    "fy": "FY22",
+    "cargoHandling": 202.81,
+    "portDock": 147.59,
+    "railway": 100.33,
+    "landBuildings": 46.8,
+    "management": 242.63
+   },
+   {
+    "fy": "FY23",
+    "cargoHandling": 180.14,
+    "portDock": 191.72,
+    "railway": 113.1,
+    "landBuildings": 52.24,
+    "management": 260.84
+   },
+   {
+    "fy": "FY24",
+    "cargoHandling": 173.07,
+    "portDock": 198.68,
+    "railway": 117.58,
+    "landBuildings": 55.31,
+    "management": 275.79
+   },
+   {
+    "fy": "FY25",
+    "cargoHandling": 172.36,
+    "portDock": 186.63,
+    "railway": 137.26,
+    "landBuildings": 67.15,
+    "management": 238.32
+   }
+  ],
+  "cashFlow": [
+   {
+    "fy": "FY21",
+    "operating": 18.22,
+    "investing": -84.29,
+    "financing": 56.94,
+    "netChange": -9.13,
+    "closingCash": 978.24
+   },
+   {
+    "fy": "FY22",
+    "operating": 279.14,
+    "investing": -221.65,
+    "financing": 19.44,
+    "netChange": 76.93,
+    "closingCash": 1055.17
+   },
+   {
+    "fy": "FY23",
+    "operating": 667.0,
+    "investing": -221.45,
+    "financing": 12.11,
+    "netChange": 457.66,
+    "closingCash": 1512.83
+   },
+   {
+    "fy": "FY24",
+    "operating": 933.67,
+    "investing": -251.41,
+    "financing": -30.26,
+    "netChange": 652.0,
+    "closingCash": 2164.83
+   },
+   {
+    "fy": "FY25",
+    "operating": 889.75,
+    "investing": -205.6,
+    "financing": 24.63,
+    "netChange": 708.78,
+    "closingCash": 2873.61
+   }
+  ],
+  "ratios": [
+   {
+    "fy": "FY16",
+    "operatingRatioPct": 60.8,
+    "patMarginPct": 5.5,
+    "incomeGrowthPct": null,
+    "surplusGrowthPct": null,
+    "patGrowthPct": null,
+    "cargoGrowthPct": null,
+    "capexGrowthPct": null,
+    "capexToSurplusPct": null,
+    "rocePct": null,
+    "debtorDays": null,
+    "currentRatio": null,
+    "assetTurnover": null,
+    "returnOnAssetsPct": null,
+    "returnOnNetWorthPct": null,
+    "equityMultiplier": null,
+    "debtToEquity": null,
+    "cashRs": null
+   },
+   {
+    "fy": "FY17",
+    "operatingRatioPct": 57.9,
+    "patMarginPct": 2.5,
+    "incomeGrowthPct": 1.1,
+    "surplusGrowthPct": 8.5,
+    "patGrowthPct": -54.0,
+    "cargoGrowthPct": null,
+    "capexGrowthPct": null,
+    "capexToSurplusPct": 91.3,
+    "rocePct": null,
+    "debtorDays": 212.0,
+    "currentRatio": null,
+    "assetTurnover": null,
+    "returnOnAssetsPct": null,
+    "returnOnNetWorthPct": null,
+    "equityMultiplier": null,
+    "debtToEquity": null,
+    "cashRs": null
+   },
+   {
+    "fy": "FY18",
+    "operatingRatioPct": 50.9,
+    "patMarginPct": 18.4,
+    "incomeGrowthPct": 15.9,
+    "surplusGrowthPct": 35.3,
+    "patGrowthPct": 750.1,
+    "cargoGrowthPct": 4.1,
+    "capexGrowthPct": -21.4,
+    "capexToSurplusPct": 53.1,
+    "rocePct": null,
+    "debtorDays": 125.0,
+    "currentRatio": null,
+    "assetTurnover": null,
+    "returnOnAssetsPct": null,
+    "returnOnNetWorthPct": null,
+    "equityMultiplier": null,
+    "debtToEquity": null,
+    "cashRs": null
+   },
+   {
+    "fy": "FY19",
+    "operatingRatioPct": 49.2,
+    "patMarginPct": 10.4,
+    "incomeGrowthPct": 12.9,
+    "surplusGrowthPct": 16.9,
+    "patGrowthPct": -36.4,
+    "cargoGrowthPct": 2.8,
+    "capexGrowthPct": -47.2,
+    "capexToSurplusPct": 23.9,
+    "rocePct": null,
+    "debtorDays": 129.0,
+    "currentRatio": null,
+    "assetTurnover": null,
+    "returnOnAssetsPct": null,
+    "returnOnNetWorthPct": null,
+    "equityMultiplier": null,
+    "debtToEquity": null,
+    "cashRs": null
+   },
+   {
+    "fy": "FY20",
+    "operatingRatioPct": 47.2,
+    "patMarginPct": 19.5,
+    "incomeGrowthPct": 16.9,
+    "surplusGrowthPct": 21.5,
+    "patGrowthPct": 120.4,
+    "cargoGrowthPct": 11.4,
+    "capexGrowthPct": -31.4,
+    "capexToSurplusPct": 13.5,
+    "rocePct": 15.4,
+    "debtorDays": 95.0,
+    "currentRatio": 0.94,
+    "assetTurnover": 0.28,
+    "returnOnAssetsPct": 5.5,
+    "returnOnNetWorthPct": 10.6,
+    "equityMultiplier": 1.94,
+    "debtToEquity": null,
+    "cashRs": 987.37
+   },
+   {
+    "fy": "FY21",
+    "operatingRatioPct": 45.2,
+    "patMarginPct": 16.5,
+    "incomeGrowthPct": 3.0,
+    "surplusGrowthPct": 6.7,
+    "patGrowthPct": -13.0,
+    "cargoGrowthPct": -4.0,
+    "capexGrowthPct": 89.1,
+    "capexToSurplusPct": 24.0,
+    "rocePct": 11.06,
+    "debtorDays": 92.0,
+    "currentRatio": 1.14,
+    "assetTurnover": 0.29,
+    "returnOnAssetsPct": 4.8,
+    "returnOnNetWorthPct": 8.3,
+    "equityMultiplier": 1.72,
+    "debtToEquity": null,
+    "cashRs": 978.24
+   },
+   {
+    "fy": "FY22",
+    "operatingRatioPct": 48.5,
+    "patMarginPct": 18.1,
+    "incomeGrowthPct": 5.5,
+    "surplusGrowthPct": -0.7,
+    "patGrowthPct": 15.5,
+    "cargoGrowthPct": -1.2,
+    "capexGrowthPct": 79.0,
+    "capexToSurplusPct": 43.2,
+    "rocePct": 11.9,
+    "debtorDays": 125.0,
+    "currentRatio": 1.16,
+    "assetTurnover": 0.28,
+    "returnOnAssetsPct": 5.0,
+    "returnOnNetWorthPct": 8.8,
+    "equityMultiplier": 1.76,
+    "debtToEquity": 0,
+    "cashRs": 1055.17
+   },
+   {
+    "fy": "FY23",
+    "operatingRatioPct": 46.2,
+    "patMarginPct": 22.0,
+    "incomeGrowthPct": 13.2,
+    "surplusGrowthPct": 18.2,
+    "patGrowthPct": 38.2,
+    "cargoGrowthPct": 6.8,
+    "capexGrowthPct": -20.5,
+    "capexToSurplusPct": 29.1,
+    "rocePct": 14.19,
+    "debtorDays": 104.0,
+    "currentRatio": 1.21,
+    "assetTurnover": 0.27,
+    "returnOnAssetsPct": 6.0,
+    "returnOnNetWorthPct": 10.8,
+    "equityMultiplier": 1.79,
+    "debtToEquity": 0,
+    "cashRs": 1512.83
+   },
+   {
+    "fy": "FY24",
+    "operatingRatioPct": 39.5,
+    "patMarginPct": 34.9,
+    "incomeGrowthPct": 20.1,
+    "surplusGrowthPct": 35.0,
+    "patGrowthPct": 90.2,
+    "cargoGrowthPct": 10.0,
+    "capexGrowthPct": 20.8,
+    "capexToSurplusPct": 26.0,
+    "rocePct": 21.67,
+    "debtorDays": 74.0,
+    "currentRatio": 1.33,
+    "assetTurnover": 0.28,
+    "returnOnAssetsPct": 9.7,
+    "returnOnNetWorthPct": 17.0,
+    "equityMultiplier": 1.76,
+    "debtToEquity": 0,
+    "cashRs": 2164.83
+   },
+   {
+    "fy": "FY25",
+    "operatingRatioPct": 37.9,
+    "patMarginPct": 31.9,
+    "incomeGrowthPct": 2.0,
+    "surplusGrowthPct": 4.7,
+    "patGrowthPct": -6.7,
+    "cargoGrowthPct": 1.9,
+    "capexGrowthPct": -26.4,
+    "capexToSurplusPct": 18.3,
+    "rocePct": 17.15,
+    "debtorDays": 72.0,
+    "currentRatio": 1.43,
+    "assetTurnover": 0.24,
+    "returnOnAssetsPct": 7.8,
+    "returnOnNetWorthPct": 13.7,
+    "equityMultiplier": 1.77,
+    "debtToEquity": 0,
+    "cashRs": 2873.61
+   }
+  ],
+  "dupont": [
+   {
+    "fy": "FY20",
+    "margin": 19.5,
+    "turnover": 0.28,
+    "multiplier": 1.94,
+    "returnOnNetWorth": 10.6
+   },
+   {
+    "fy": "FY21",
+    "margin": 16.5,
+    "turnover": 0.29,
+    "multiplier": 1.72,
+    "returnOnNetWorth": 8.3
+   },
+   {
+    "fy": "FY22",
+    "margin": 18.1,
+    "turnover": 0.28,
+    "multiplier": 1.76,
+    "returnOnNetWorth": 8.8
+   },
+   {
+    "fy": "FY23",
+    "margin": 22.0,
+    "turnover": 0.27,
+    "multiplier": 1.79,
+    "returnOnNetWorth": 10.8
+   },
+   {
+    "fy": "FY24",
+    "margin": 34.9,
+    "turnover": 0.28,
+    "multiplier": 1.76,
+    "returnOnNetWorth": 17.0
+   },
+   {
+    "fy": "FY25",
+    "margin": 31.9,
+    "turnover": 0.24,
+    "multiplier": 1.77,
+    "returnOnNetWorth": 13.7
+   }
+  ],
+  "appraisal": {
+   "programme": [
+    {
+     "attributionPct": 100,
+     "npvAt10": 714.0,
+     "npvAt12": 599.0,
+     "irrPct": 31.2,
+     "arrPct": 21.5,
+     "paybackYears": 3.7,
+     "discountedPaybackYears": 5.3,
+     "flows": [
+      -352.2,
+      -140.8,
+      78.3,
+      255.4,
+      216.0,
+      60.4,
+      273.1,
+      542.3,
+      687.5
+     ]
+    },
+    {
+     "attributionPct": 50,
+     "npvAt10": -429.0,
+     "npvAt12": -441.0,
+     "irrPct": -9.8,
+     "arrPct": 10.8,
+     "paybackYears": null,
+     "discountedPaybackYears": null,
+     "flows": [
+      -352.2,
+      -208.9,
+      -34.0,
+      77.6,
+      13.2,
+      -139.5,
+      1.6,
+      108.1,
+      223.7
+     ]
+    },
+    {
+     "attributionPct": 25,
+     "npvAt10": -1000.0,
+     "npvAt12": -962.0,
+     "irrPct": null,
+     "arrPct": 5.4,
+     "paybackYears": null,
+     "discountedPaybackYears": null,
+     "flows": [
+      -352.2,
+      -243.0,
+      -90.1,
+      -11.4,
+      -88.2,
+      -239.5,
+      -134.1,
+      -109.0,
+      -8.2
+     ]
+    }
+   ],
+   "breakeven": [
+    {
+     "project": "WQ-7 and WQ-8 mechanisation",
+     "costCr": 288.47,
+     "needsPerYearCr": 30.6,
+     "needsPerYear12Cr": 35.8
+    },
+    {
+     "project": "EQ-7 mechanisation",
+     "costCr": 200.99,
+     "needsPerYearCr": 21.3,
+     "needsPerYear12Cr": 25.0
+    },
+    {
+     "project": "WQ-6 revamp",
+     "costCr": 165.7,
+     "needsPerYearCr": 17.6,
+     "needsPerYear12Cr": 20.6
+    },
+    {
+     "project": "Internal flyovers (proposed)",
+     "costCr": 334.89,
+     "needsPerYearCr": 35.5,
+     "needsPerYear12Cr": 41.6
+    }
+   ],
+   "sensitivityWQ78": [
+    {
+     "ratePct": 8,
+     "npv30y": {
+      "25": -7.0,
+      "30": 49.0,
+      "35": 106.0,
+      "40": 162.0,
+      "50": 274.0
+     }
+    },
+    {
+     "ratePct": 10,
+     "npv30y": {
+      "25": -53.0,
+      "30": -6.0,
+      "35": 41.0,
+      "40": 89.0,
+      "50": 183.0
+     }
+    },
+    {
+     "ratePct": 12,
+     "npv30y": {
+      "25": -87.0,
+      "30": -47.0,
+      "35": -7.0,
+      "40": 34.0,
+      "50": 114.0
+     }
+    },
+    {
+     "ratePct": 14,
+     "npv30y": {
+      "25": -113.0,
+      "30": -78.0,
+      "35": -43.0,
+      "40": -8.0,
+      "50": 62.0
+     }
+    }
+   ],
+   "discountRatePct": 10,
+   "lifeYears": 30
+  },
+  "forecast": {
+   "baseYear": "FY26",
+   "capacityMTPA": 154.71,
+   "target": "100 MMT in FY27",
+   "needPerMonth": 9.11,
+   "averagePerMonth": 7.78,
+   "scenarios": [
+    {
+     "scenario": "Slow",
+     "growthPct": 1.9,
+     "note": "repeats FY25 growth",
+     "mmt": {
+      "FY26": 91.2,
+      "FY27": 92.9,
+      "FY28": 94.7,
+      "FY29": 96.5,
+      "FY30": 98.3
+     }
+    },
+    {
+     "scenario": "Trend",
+     "growthPct": 3.9,
+     "note": "repeats the FY17 to FY25 average",
+     "mmt": {
+      "FY26": 91.2,
+      "FY27": 94.7,
+      "FY28": 98.4,
+      "FY29": 102.3,
+      "FY30": 106.2
+     }
+    },
+    {
+     "scenario": "Strong",
+     "growthPct": 8.9,
+     "note": "repeats April to October 2026 growth",
+     "mmt": {
+      "FY26": 91.2,
+      "FY27": 99.3,
+      "FY28": 108.1,
+      "FY29": 117.7,
+      "FY30": 128.2
+     }
+    }
+   ]
+  }
+ },
+ "copy": {
+  "welcome": {
+   "title": "Visakhapatnam Port",
+   "line": "Oil, ore and coal, on India's east coast."
+  },
+  "glance": {
+   "title": "Port at a glance",
+   "line": "One natural harbour. Thirty-one berths. 91 million tonnes a year."
+  },
+  "understand": {
+   "title": "How it was built",
+   "line": "From a manganese jetty in 1933 to ships of 200,000 tonnes."
+  },
+  "finance": {
+   "title": "Financial intelligence",
+   "line": "Income more than doubled in nine years. Borrowings are nil."
+  },
+  "swot": {
+   "title": "SWOT",
+   "line": "Rich and deep. Slow in places."
+  },
+  "explorer": {
+   "title": "Cargo and connections",
+   "line": "Oil comes in. Ore goes out."
+  },
+  "market": {
+   "title": "Against its rivals",
+   "line": "Better margins than Chennai. Slower ships than most."
+  },
+  "pulse": {
+   "title": "What people say",
+   "line": "The city talks about dust."
+  },
+  "pipeline": {
+   "title": "What is coming",
+   "line": "Berths, shipyards, hydrogen and a gigawatt of Google."
+  },
+  "research": {
+   "title": "The research",
+   "line": "What scholars have found here."
+  },
+  "next": {
+   "title": "What to change",
+   "line": "Four fixes, and the jobs around the port."
+  },
+  "depart": {
+   "title": "",
+   "line": ""
+  }
+ },
+ "readings": [
+  {
+   "id": "income",
+   "title": "Income and expenditure",
+   "text": "Surplus rose from Rs 356 crore to Rs 1,314 crore while costs rose 45%."
+  },
+  {
+   "id": "revenue",
+   "title": "Where income comes from",
+   "text": "Port and dock charges lead, at 45% of income."
+  },
+  {
+   "id": "cost",
+   "title": "Where money goes",
+   "text": "Railway took its largest share since FY19, while rail tonnage fell."
+  },
+  {
+   "id": "balance",
+   "title": "Balance sheet",
+   "text": "Net worth almost doubled in five years, with no borrowings from FY22."
+  },
+  {
+   "id": "cash",
+   "title": "Cash flow",
+   "text": "Cash and deposits reached Rs 2,874 crore, almost three times FY20."
+  },
+  {
+   "id": "capex",
+   "title": "Capital expenditure",
+   "text": "FY25 capex used only 18% of operating surplus."
+  },
+  {
+   "id": "growth",
+   "title": "Growth",
+   "text": "FY25 stalled: cargo +1.9%, income +2.0%, profit -6.7%."
+  },
+  {
+   "id": "ratios",
+   "title": "Ratios",
+   "text": "The operating ratio improved from 60.8% to 37.9%."
+  },
+  {
+   "id": "appraisal",
+   "title": "Investment appraisal",
+   "text": "Did nine years of spending pay? Depends how much growth you credit to it."
+  }
+ ],
+ "hidden": [
+  {
+   "name": "Income per tonne",
+   "value": "Rs 256",
+   "change": "from Rs 150 in FY17",
+   "meaning": "Price and mix beat volume"
+  },
+  {
+   "name": "Oil dependence",
+   "value": "30.1%",
+   "change": "from 21.8% in FY23",
+   "meaning": "One refinery matters more each year"
+  },
+  {
+   "name": "Gulf exposure",
+   "value": "18.6%",
+   "change": "of overseas imports, FY25",
+   "meaning": "Hormuz risk"
+  },
+  {
+   "name": "Rail share",
+   "value": "34.8%",
+   "change": "from 46.3% in FY17",
+   "meaning": "Less cargo moves by train"
+  },
+  {
+   "name": "Total waiting",
+   "value": "5.01 h",
+   "change": "against 0.71 h charged to the port",
+   "meaning": "The usual number hides most of the wait"
+  },
+  {
+   "name": "Dues over five years",
+   "value": "Rs 238 crore",
+   "change": "57% of all dues, FY25",
+   "meaning": "Profit quality"
+  }
+ ],
+ "region": [
+  {
+   "name": "Google AI hub",
+   "status": "under construction",
+   "what": "Gigawatt-scale campus, US$15 billion, three sites, three subsea cables",
+   "when": "Broke ground 28 April 2026; target July 2028",
+   "link": "Cables land on the port's coast. No port cargo has been quantified.",
+   "sources": [
+    "dcd"
+   ]
+  },
+  {
+   "name": "Digital Connexion (Reliance, Brookfield, Digital Realty)",
+   "status": "announced",
+   "what": "1 GW AI data centre campus, about US$11 billion",
+   "when": "MoU; by 2030",
+   "link": "Regional power and construction demand",
+   "sources": [
+    "tnm"
+   ]
+  },
+  {
+   "name": "Sify data centre (Meta reported as tenant)",
+   "status": "reported",
+   "what": "500 MW campus and cable landing; some reports say 550 MW",
+   "when": "Foundation planned for October 2025",
+   "link": "Regional",
+   "sources": [
+    "outlook"
+   ]
+  },
+  {
+   "name": "Cognizant campus",
+   "status": "under construction",
+   "what": "8,000 seats, Rs 1,583 crore",
+   "when": "Broke ground December 2025; first phase early 2029",
+   "link": "Skilled jobs",
+   "sources": [
+    "cognizant"
+   ]
+  },
+  {
+   "name": "Alluri Sitarama Raju Airport, Bhogapuram",
+   "status": "operational",
+   "what": "New international airport for the city",
+   "when": "Flights from 17 August 2026",
+   "link": "Air cargo beside sea cargo",
+   "sources": [
+    "itln"
+   ]
+  },
+  {
+   "name": "Ship Technology Centre",
+   "status": "announced",
+   "what": "Rs 305 crore research and design centre in Visakhapatnam",
+   "when": "Announced 10 January 2026",
+   "link": "Shipbuilding skills",
+   "sources": [
+    "air"
+   ]
+  }
+ ],
+ "mous": [
+  {
+   "date": "Nov 2026",
+   "parties": "Hindustan Shipyard and Cyient DLM",
+   "what": "Indian-made marine electronics",
+   "value": null,
+   "sources": [
+    "hindu"
+   ]
+  },
+  {
+   "date": "Nov 2026",
+   "parties": "Andhra Pradesh, CII summit, day one",
+   "what": "73 MoUs and 15 orders, statewide and not port-specific",
+   "value": "Rs 5,84,355 crore",
+   "sources": [
+    "yocii"
+   ]
+  },
+  {
+   "date": "Sep 2026",
+   "parties": "Mazagon Dock and NSHIP-AP",
+   "what": "Anchor shipyard at Dugarajapatnam",
+   "value": "about Rs 15,000 crore",
+   "sources": [
+    "mdl"
+   ]
+  },
+  {
+   "date": "Nov 2025",
+   "parties": "VPA and Rail Vikas Nigam",
+   "what": "Flyovers, bridges and port railways",
+   "value": "Rs 535 crore",
+   "sources": [
+    "rvnl"
+   ]
+  },
+  {
+   "date": "Oct 2025",
+   "parties": "VPA and Andhra Pradesh",
+   "what": "Dugarajapatnam port and shipbuilding cluster",
+   "value": "Rs 29,662 crore",
+   "sources": [
+    "yomou"
+   ]
+  },
+  {
+   "date": "Oct 2025",
+   "parties": "VPA and MECON",
+   "what": "Stackyards and railway sidings",
+   "value": "Rs 3,000 crore",
+   "sources": [
+    "yomou"
+   ]
+  },
+  {
+   "date": "Oct 2025",
+   "parties": "VPA and NBCC",
+   "what": "Development of Harbour Park land",
+   "value": null,
+   "sources": [
+    "yomou"
+   ]
+  }
+ ],
+ "research": [
+  {
+   "year": 1988,
+   "title": "Longshore sediment transport near Visakhapatnam Port",
+   "finding": "Net sand drift runs north, with seasonal reversals",
+   "doi": "10.1016/0951-8312(88)90031-8"
+  },
+  {
+   "year": 2011,
+   "title": "Littoral drift management: a success story of Visakhapatnam Port",
+   "finding": "Sand trap and bypassing kept a 3 km beach",
+   "doi": "10.1080/09715010.2011.10515048"
+  },
+  {
+   "year": 2021,
+   "title": "Specialization, ownership, competition and regulation: Indian seaports",
+   "finding": "Competition from state ports hurts federal ports",
+   "doi": "10.1057/s41278-021-00200-y"
+  },
+  {
+   "year": 2023,
+   "title": "Modeling challenges affecting the performance of major ports of India",
+   "finding": "Visakhapatnam stayed on the efficient frontier, 2013 to 2020",
+   "doi": null
+  },
+  {
+   "year": 2025,
+   "title": "Anchoring Global Efficiency (ADBI)",
+   "finding": "Credits leadership and process reform for the 2023 container jump",
+   "doi": "10.56506/PQPB5379"
+  }
+ ]
+}

@@ -1,11 +1,16 @@
-<div align="center">
+# Visakhapatnam Port
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Independent student project. Not the official website.
 
-  <h1>Built with AI Studio</h2>
+| Path | What |
+|---|---|
+| `docs/AI_STUDIO_PROMPT.md` | Prompt to paste |
+| `docs/DESIGN.md` | Order, handovers, look, performance |
+| `docs/storyboard/` | Every screen, desktop and phone, plus flow |
+| `docs/moodboard/` | Reference screenshots |
+| `public/media/` | Ready images and film |
+| `public/reference-assets/` | Empty, for extra files |
+| `src/content/site-data.json` | All facts and analysis |
+| `scripts/` | `py -I scripts/build_data.py` rebuilds the data; it stops if totals fail |
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+`npm install`, `npm run dev`, `npm test`, `npm run build`. Vercel: framework Vite, output `dist`, no variables.
