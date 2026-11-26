@@ -438,13 +438,14 @@ export function initChoreography(): () => void {
         if (bars.length) {
           gsap.from(bars, {
             scaleY: 0,
-            transformOrigin: (_i, el) => ((el as Element).classList.contains('neg') ? 'center top' : 'center bottom'),
-            duration: 0.45,
-            stagger: { each: 0.04, from: 'end' },
+            transformOrigin: (_i, el) => ((el as Element).classList.contains('neg') ? '50% 0%' : '50% 100%'),
+            duration: 0.36,
+            stagger: { each: 0.025, from: 'start' },
             ease: 'power2.out',
+            clearProps: 'transform',
             scrollTrigger: {
               trigger: panel,
-              start: 'top 85%',
+              start: 'top 92%',
               toggleActions: 'play none none none',
             },
           })
@@ -534,13 +535,14 @@ export function initChoreography(): () => void {
       if (marketBars.length) {
         gsap.from(marketBars, {
           scaleY: 0,
-          transformOrigin: 'center bottom',
-          duration: 0.45,
-          stagger: { each: 0.04, from: 'end' },
+          transformOrigin: '50% 100%',
+          duration: 0.36,
+          stagger: { each: 0.025, from: 'start' },
           ease: 'power2.out',
+          clearProps: 'transform',
           scrollTrigger: {
             trigger: '#market .chart',
-            start: 'top 85%',
+            start: 'top 92%',
             toggleActions: 'play none none none',
           },
         })

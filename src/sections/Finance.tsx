@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { BarChart, Rows, Stack } from '../charts'
 import { Drawer } from '../components/Drawer'
 import { data, num, rupees } from '../lib/data'
@@ -7,6 +7,18 @@ import { sections } from '../lib/sections'
 const a = data.analysis
 const F = data.financials
 const reading = (id: string) => data.readings.find(r => r.id === id)!
+
+const PANEL_ORDER = [
+  'income',
+  'revenue',
+  'cost',
+  'balance',
+  'cash',
+  'capex',
+  'growth',
+  'ratios',
+  'appraisal',
+] as const
 
 function Panel({ id, children }: { id: string; children: ReactNode }) {
   const r = reading(id)
@@ -27,12 +39,54 @@ export function Finance() {
   const s = sections.find(x => x.id === 'finance')!
   const fy = (k: keyof (typeof F)[number]) => F.map(y => ({ label: y.fy, value: y[k] as number | null }))
   const A = a.appraisal
+  const [activeIdx, setActiveIdx] = useState(0)
+
+  useEffect(() => {
+    const panels = [...document.querySelectorAll<HTMLElement>('[data-finance-panel]')]
+    if (!panels.length) return
+    const io = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return
+          const idx = panels.indexOf(entry.target as HTMLElement)
+          if (idx >= 0) setActiveIdx(idx)
+        })
+      },
+      { rootMargin: '-35% 0px -55% 0px' },
+    )
+    panels.forEach(p => io.observe(p))
+    return () => io.disconnect()
+  }, [])
+
   return (
     <section id="finance" data-ground={s.ground} aria-labelledby="finance-h">
       <div className="wrap finance-layout">
         <div className="finance-rail">
           <h2 id="finance-h">{s.title}</h2>
           <p className="line">{s.line}</p>
+          <p className="finance-counter" aria-hidden="true">
+            {String(activeIdx + 1).padStart(2, '0')} / {String(PANEL_ORDER.length).padStart(2, '0')}
+          </p>
+          <nav className="finance-index" aria-label="Financial chapters">
+            <ol>
+              {PANEL_ORDER.map((id, i) => {
+                const r = reading(id)
+                const isCurrent = i === activeIdx
+                return (
+                  <li key={id}>
+                    <a
+                      href={`#finance-${id}`}
+                      aria-current={isCurrent ? 'true' : undefined}
+                      onClick={() => setActiveIdx(i)}
+                    >
+                      <span>{String(i + 1).padStart(2, '0')}</span>
+                      <span>{r.title}</span>
+                    </a>
+                  </li>
+                )
+              })}
+            </ol>
+          </nav>
         </div>
         <div className="finance-panels">
           <Panel id="income">

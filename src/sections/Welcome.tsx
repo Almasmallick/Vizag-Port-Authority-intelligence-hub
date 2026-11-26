@@ -68,6 +68,7 @@ export function Welcome() {
           <h1 id="welcome-h">Visakhapatnam Port Authority</h1>
           <p className="line">{data.copy.welcome.line}</p>
           <p className="small">Independent student project. Not the official website.</p>
+          <a className="hero-explore" href="#glance">Explore numbers ↓</a>
         </div>
       </div>
     </Voyage>

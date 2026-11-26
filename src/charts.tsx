@@ -4,21 +4,42 @@ import { num } from './lib/data'
 type Point = { label: string; value: number | null }
 
 /** Vertical bars from zero. Negative values hang below the baseline. */
-export function Bars({ points, unit, label }: { points: Point[]; unit: string; label: string }) {
+export function Bars({
+  points,
+  unit,
+  label,
+  activeIdx,
+  onSelect,
+}: {
+  points: Point[]
+  unit: string
+  label: string
+  activeIdx?: number
+  onSelect?: (idx: number) => void
+}) {
   const values = points.map(p => p.value ?? 0)
   const max = Math.max(0, ...values), min = Math.min(0, ...values), span = max - min || 1
-  const y = (v: number) => 12 + ((max - v) / span) * 74
+  const y = (v: number) => 8 + ((max - v) / span) * 86
+  const zeroY = y(0)
+
   return (
     <svg className="chart" viewBox="0 0 100 100" preserveAspectRatio="none" role="img" aria-label={label}>
+      <line x1="0" y1={zeroY} x2="100" y2={zeroY} className="chart-axis" vectorEffect="non-scaling-stroke" />
       {points.map((p, i) => p.value == null ? null : (
         <rect
           key={p.label}
-          className={[i === points.length - 1 ? 'now' : '', p.value < 0 ? 'neg' : 'pos'].filter(Boolean).join(' ')}
+          className={[
+            i === points.length - 1 ? 'now' : '',
+            i === activeIdx ? 'is-selected' : '',
+            p.value < 0 ? 'neg' : 'pos',
+          ].filter(Boolean).join(' ')}
           x={(i + .14) * 100 / points.length}
           width={72 / points.length}
-          y={Math.min(y(p.value), y(0))}
-          height={Math.abs(y(p.value) - y(0))}
+          y={Math.min(y(p.value), zeroY)}
+          height={Math.max(1.2, Math.abs(y(p.value) - zeroY))}
           data-bar
+          onMouseEnter={() => onSelect?.(i)}
+          onClick={() => onSelect?.(i)}
         />
       ))}
       <title>{points.map(p => `${p.label} ${num(p.value)} ${unit}`).join(', ')}</title>
@@ -26,18 +47,40 @@ export function Bars({ points, unit, label }: { points: Point[]; unit: string; l
   )
 }
 
-/** Bars plus readable HTML labels, so type never stretches with the drawing. */
+/** Bars plus readable HTML labels and tap/hover inspection, so type never stretches with the drawing. */
 export function BarChart(props: { points: Point[]; unit: string; label: string }) {
+  const lastValid = Math.max(0, props.points.length - 1)
+  const [selected, setSelected] = useState(lastValid)
   const mid = Math.floor((props.points.length - 1) / 2)
+  const activePoint = props.points[selected] ?? props.points[lastValid]
+
   return (
     <figure className="bars">
-      <Bars {...props} />
+      {activePoint && (
+        <div className="chart-readout" aria-live="polite">
+          <span>{activePoint.label}</span>
+          <b>
+            {activePoint.value == null
+              ? '—'
+              : `${num(activePoint.value, Math.abs(activePoint.value) < 10 ? 1 : 0)}${props.unit ? ` ${props.unit}` : ''}`}
+          </b>
+        </div>
+      )}
+      <Bars {...props} activeIdx={selected} onSelect={setSelected} />
       <div className="ticks">
         {props.points.map((p, i) => (
-          <span key={p.label} data-show-val={i === 0 || i === mid || i === props.points.length - 1 ? 'true' : 'false'}>
+          <button
+            key={p.label}
+            type="button"
+            className={i === selected ? 'tick-btn is-selected' : 'tick-btn'}
+            data-show-val={i === 0 || i === mid || i === props.points.length - 1 ? 'true' : 'false'}
+            aria-label={`${p.label}: ${num(p.value, 0)}${props.unit ? ` ${props.unit}` : ''}`}
+            onMouseEnter={() => setSelected(i)}
+            onClick={() => setSelected(i)}
+          >
             <b>{num(p.value, 0)}</b>
-            {p.label.replace('FY', '')}
-          </span>
+            <span>{p.label.replace('FY', '')}</span>
+          </button>
         ))}
       </div>
     </figure>

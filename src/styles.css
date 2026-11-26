@@ -173,6 +173,18 @@ section:not([data-ground=photo]) > .photo { margin: -88px 0 48px; height: 56svh;
 }
 .hero-reports a:last-child { border-bottom: 0; }
 .hero-reports a:hover { background: var(--steel); color: var(--signal); }
+.hero-explore {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--signal);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.hero-explore:hover { color: var(--salt); }
 
 /* 2. Port at a glance */
 #glance { min-height: 100svh; display: flex; align-items: flex-end; }
@@ -227,13 +239,13 @@ section:not([data-ground=photo]) > .photo { margin: -88px 0 48px; height: 56svh;
 .timeline li {
   position: relative;
   display: grid;
-  grid-template-columns: 88px 1fr;
+  grid-template-columns: 100px 1fr;
   gap: 8px 14px;
   padding: 16px 0 16px 26px;
   border-top: 1px solid var(--bar);
   transition: border-color var(--dur-base) ease;
 }
-.timeline b { font-size: 20px; font-stretch: 114%; font-variant-numeric: tabular-nums; line-height: 1.1; transition: color var(--dur-base) ease; }
+.timeline b { font-size: 19px; font-stretch: 112%; font-variant-numeric: tabular-nums; line-height: 1.1; white-space: nowrap; transition: color var(--dur-base) ease; }
 #understand .timeline li.is-active { border-top-color: var(--signal); }
 #understand .timeline li.is-active b { color: var(--signal); }
 
@@ -243,6 +255,16 @@ section:not([data-ground=photo]) > .photo { margin: -88px 0 48px; height: 56svh;
 /* 4. Financial intelligence */
 #finance { padding-bottom: 0; }
 .finance-rail h2 { margin-bottom: 14px; }
+.finance-counter {
+  margin: 0 0 8px;
+  font-size: clamp(22px, 3vw, 32px);
+  line-height: 1;
+  font-weight: 750;
+  font-stretch: 116%;
+  font-variant-numeric: tabular-nums;
+  color: var(--primer);
+}
+.finance-index { display: none; }
 .panel {
   min-height: 70svh;
   display: flex;
@@ -250,6 +272,7 @@ section:not([data-ground=photo]) > .photo { margin: -88px 0 48px; height: 56svh;
   justify-content: center;
   border-top: 1px solid var(--bar);
   padding: 40px 0 48px;
+  scroll-margin-top: 96px;
   transition: border-color var(--dur-base) ease;
 }
 .panel.is-active { border-top: 2px solid var(--primer); }
@@ -265,15 +288,46 @@ section:not([data-ground=photo]) > .photo { margin: -88px 0 48px; height: 56svh;
 
 /* Charts */
 .chart { display: block; width: 100%; height: 210px; }
-.chart rect { fill: var(--bar); transform-box: fill-box; }
-.chart rect.pos { transform-origin: center bottom; }
-.chart rect.neg { transform-origin: center top; }
+.chart-axis { stroke: var(--bar); stroke-width: 1; }
+.chart rect { fill: var(--bar); transform-box: fill-box; cursor: pointer; transition: fill var(--dur-fast) ease; }
+.chart rect.pos { transform-origin: 50% 100%; }
+.chart rect.neg { transform-origin: 50% 0%; }
+.chart rect.is-selected { fill: var(--ink); }
 .chart rect.now { fill: var(--primer); }
+.chart rect.now.is-selected { fill: var(--primer); }
 .bars { margin: 0; }
-.ticks { display: flex; gap: 2px; font-size: 12px; color: var(--quiet); margin-top: 6px; }
-.ticks span { flex: 1; text-align: center; min-width: 0; }
-.ticks b { display: block; color: inherit; font-size: 12px; font-variant-numeric: tabular-nums; }
-.ticks span:last-child { color: var(--primer); font-weight: 700; }
+.chart-readout {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--bar);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  color: var(--quiet);
+}
+.chart-readout b { color: var(--primer); font-weight: 700; }
+.ticks { display: flex; gap: 2px; font-size: 11px; color: var(--quiet); margin-top: 4px; width: 100%; }
+.tick-btn {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 44px;
+  padding: 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  font: 400 11px/1.2 var(--font);
+  color: inherit;
+  overflow: hidden;
+}
+.tick-btn b { display: block; color: inherit; font-size: 11px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tick-btn span { display: block; white-space: nowrap; }
+.tick-btn.is-selected { color: var(--ink); font-weight: 700; }
+.tick-btn:last-child { color: var(--primer); font-weight: 700; }
 
 .rows li { position: relative; display: flex; justify-content: space-between; gap: 12px; padding: 8px 0 12px; font-size: 16px; }
 .rows i { position: absolute; left: 0; bottom: 0; height: 4px; background: var(--bar); transform-origin: left center; }
@@ -432,16 +486,16 @@ section:not([data-ground=photo]) > .photo { margin: -88px 0 48px; height: 56svh;
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgb(8 26 36 / .48), rgb(8 26 36 / .9) 32%, rgb(8 26 36 / .96) 58%);
+  background: linear-gradient(rgb(8 26 36 / .24), rgb(8 26 36 / .74) 44%, rgb(8 26 36 / .94) 68%);
 }
 .pipeline-body {
   position: relative;
   z-index: 1;
-  margin-top: -54svh;
+  margin-top: -64svh;
   padding-top: 24px;
   background: linear-gradient(transparent, rgb(8 26 36 / .72) 10%, rgb(8 26 36 / .9) 26%);
 }
-.pipeline-hero { min-height: 40svh; display: flex; flex-direction: column; justify-content: flex-end; margin-bottom: 40px; }
+.pipeline-hero { min-height: 28svh; display: flex; flex-direction: column; justify-content: flex-end; margin-bottom: 32px; }
 .pipe-band { margin-top: 56px; }
 .pipe-rail h3 { margin: 0 0 8px; }
 .pipe-index {
@@ -829,14 +883,45 @@ output { display: block; font-size: 28px; font-weight: 700; font-variant-numeric
   /* 4. Desktop Financial intelligence: pinned left rail + swapping right panels */
   #finance { overflow: visible; padding-bottom: 0; }
   .finance-layout { display: grid; grid-template-columns: 4fr 8fr; gap: 0 56px; align-items: start; }
-  .finance-rail { position: sticky; top: 96px; padding-bottom: 64px; }
-  .finance-rail h2 { font-size: clamp(36px, 4.8vw, 68px); }
+  .finance-rail { position: sticky; top: 72px; padding-bottom: 48px; }
+  .finance-rail h2 { font-size: clamp(36px, 4.6vw, 64px); }
+  .finance-index {
+    display: block;
+    margin-top: 18px;
+    border-top: 1px solid var(--bar);
+  }
+  .finance-index li { border-bottom: 1px solid var(--bar); }
+  .finance-index a {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    align-items: baseline;
+    gap: 8px;
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: var(--quiet);
+    text-decoration: none;
+    transition: color var(--dur-fast) ease;
+  }
+  .finance-index a span:first-child { font-variant-numeric: tabular-nums; font-size: 12px; }
+  .finance-index a:hover { color: var(--ink); }
+  .finance-index a[aria-current="true"] { color: var(--primer); font-weight: 700; }
   .finance-panels { min-width: 0; }
   .panel { min-height: 76svh; padding: 48px 0 64px; transition: opacity .25s ease; }
   .panel-viz { margin-top: 24px; }
   .chart { height: 320px; }
-  .ticks, .ticks b { font-size: 14px; }
+  .ticks, .tick-btn, .tick-btn b { font-size: 13px; }
   .red-wipe { height: 28svh; }
+
+  .sec-sheet {
+    left: max(16px, env(safe-area-inset-left));
+    right: auto;
+    bottom: 68px;
+    width: 380px;
+    max-height: 70svh;
+    border: 1px solid var(--bar);
+    border-top: 2px solid var(--signal);
+  }
 
   .timeline li { grid-template-columns: 180px 1fr; }
   .timeline b { font-size: 34px; }
@@ -883,7 +968,7 @@ output { display: block; font-size: 28px; font-weight: 700; font-variant-numeric
 
   /* 9. Pipeline */
   #pipeline { padding: 0 0 140px; }
-  .pipeline-body { margin-top: -42svh; }
+  .pipeline-body { margin-top: -58svh; }
   .pipe-band { margin-top: 72px; }
   .pipe-split { display: grid; grid-template-columns: 4fr 8fr; gap: 0 56px; align-items: start; }
   .pipe-rail { position: sticky; top: 96px; }
@@ -917,10 +1002,6 @@ output { display: block; font-size: 28px; font-weight: 700; font-variant-numeric
 @media (min-width: 768px) and (prefers-reduced-motion: no-preference) {
   .panel { opacity: .62; }
   .panel.is-active { opacity: 1; }
-}
-
-@media (min-width: 1024px) {
-  .sec-nav { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
