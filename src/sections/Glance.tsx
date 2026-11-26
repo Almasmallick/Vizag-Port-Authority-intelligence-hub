@@ -13,7 +13,7 @@ export function Glance() {
     { label: 'Rail', raw: o.trackKm, digits: 0, unit: 'km of port track' },
   ]
   return (
-    <Section id="glance" photo={<Photo name="harbour" />}>
+    <Section id="glance" photo={<Photo name="harbour" alt="Visakhapatnam outer harbour and ore berth at dawn" />}>
       <dl className="facts">
         {facts.map(f => (
           <div key={f.label}>

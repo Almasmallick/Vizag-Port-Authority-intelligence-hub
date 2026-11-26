@@ -35,7 +35,18 @@ export function Pipeline() {
               {String(activePort + 1).padStart(2, '0')} / {String(data.projects.length).padStart(2, '0')}
             </p>
           </div>
-          <ul className="status pipe-port-list">
+          <ul
+            className="status pipe-port-list"
+            onScroll={e => {
+              const list = e.currentTarget
+              const first = list.firstElementChild as HTMLElement | null
+              const step = (first?.offsetWidth ?? list.clientWidth * 0.85) + 12
+              if (step > 0) {
+                const idx = Math.min(data.projects.length - 1, Math.max(0, Math.round(list.scrollLeft / step)))
+                if (idx !== activePort) setActivePort(idx)
+              }
+            }}
+          >
             {data.projects.map((p, i) => (
               <li
                 key={p.name}

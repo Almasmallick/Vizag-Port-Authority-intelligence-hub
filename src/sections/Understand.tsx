@@ -6,7 +6,7 @@ import { Photo, Section } from './shared'
 export function Understand() {
   const o = data.operations
   return (
-    <Section id="understand" photo={<Photo name="berth" />}>
+    <Section id="understand" photo={<Photo name="berth" alt="Mechanised cargo berth and shore cranes inside Visakhapatnam harbour" />}>
       <ol className="timeline">
         <span className="timeline-track" aria-hidden="true" />
         <span className="timeline-dot" aria-hidden="true" />

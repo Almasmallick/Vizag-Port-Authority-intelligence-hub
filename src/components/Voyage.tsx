@@ -48,6 +48,11 @@ export function Voyage({ children }: { children: ReactNode }) {
     }
   }, [])
 
+  const posterSrc =
+    typeof window !== 'undefined' && matchMedia('(min-width: 768px)').matches
+      ? '/media/voyage.webp'
+      : '/media/voyage-phone.webp'
+
   return (
     <section id="welcome" ref={track} data-ground="photo" aria-labelledby="welcome-h">
       <div className="scene">
@@ -56,6 +61,7 @@ export function Voyage({ children }: { children: ReactNode }) {
           <img src="/media/voyage-phone.webp" alt="Illustration of a cargo ship approaching the port at sunrise" />
           <video
             ref={video}
+            poster={posterSrc}
             muted
             playsInline
             preload="none"

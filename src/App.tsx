@@ -1,4 +1,6 @@
 import { useEffect, useRef } from 'react'
+import { BackToTop } from './components/BackToTop'
+import { SectionBar } from './components/SectionBar'
 import { Welcome, Glance, Understand, Finance, Swot, Explorer, Market, Pulse, Pipeline, Research, Next, Depart } from './sections'
 
 export default function App() {
@@ -32,8 +34,22 @@ export default function App() {
     <>
       <a className="skip" href="#glance">Skip to content</a>
       <div className="progress" ref={bar} aria-hidden="true" />
-      <main><Welcome /><Glance /><Understand /><Finance /><Swot /><Explorer /><Market /><Pulse /><Pipeline /><Research /><Next /></main>
+      <main>
+        <Welcome />
+        <SectionBar />
+        <Glance />
+        <Understand />
+        <Finance />
+        <Swot />
+        <Explorer />
+        <Market />
+        <Pulse />
+        <Pipeline />
+        <Research />
+        <Next />
+      </main>
       <Depart />
+      <BackToTop />
     </>
   )
 }

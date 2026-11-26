@@ -4,7 +4,7 @@ import { Photo } from './shared'
 export function Depart() {
   return (
     <footer id="depart" data-ground="photo">
-      <Photo name="depart" />
+      <Photo name="depart" alt="Container ship steaming out past the Visakhapatnam harbour breakwater" />
       <div className="wrap depart-copy">
         <h2>Thank you.</h2>
         <p className="line">Let&apos;s build something together:</p>
